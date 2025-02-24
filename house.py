@@ -11,7 +11,7 @@ df = pd.read_csv('house_prices.csv')
 x = df[['Square Footage']]
 y = df['Price']
 
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3, random_state=45)
 
 model = LinearRegression()
 
