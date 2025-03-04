@@ -20,5 +20,4 @@ model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 
 print("Mean squared error: " + mean_squared_error(y_test, y_pred))
-
- 
+print("completed")
